@@ -1,3 +1,4 @@
-handy-theme
-===========
-Migrating the hubs from the existing theme to Handy to get off the existing Pageline theme.
+foghorn
+=======
+
+Theme for Occupy Sandy
