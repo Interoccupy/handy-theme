@@ -100,10 +100,12 @@ body #page {
 @white: #FFFFFF;
 
 
+
 /* structure */
 
 
-
+.large {font-size: 36px;}
+.h2 {font-size: 22px; .caps;}
 .left {float: left; }
 .right {float: right; }
 .nodisplay {display: none!important;}
@@ -751,9 +753,10 @@ hr {
 
 
 #primary {
-	width: 100%;
+	width: 75%;
 	background: @white;
 	padding: 20px 30px 40px;
+	float: right;
 }
 
 
@@ -865,12 +868,33 @@ hr {
 	}
 }
 
+#menu-main-menu 
+{
+	clear: both;
+	margin: 0;
+	background: @grayC;
+	li{
+		border-right: 1px solid @grayD;
+		margin: 0 -4px 0 0;
+		font-family: "LeagueGothicRegular", "Arial Narrow", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+		font-weight: 400;
+		.caps;
+		line-height: 44px;
+		font-size: 26px;
+		position: relative;
+	}
+	a{
+		color:@white;
+		padding: 0 10px;
+	}
+}
 
 #site-title {
 	margin: 0;
 	font-size: 48px;
 	line-height: 42px;
 	position: relative;
+	.text-shadow(0 0 10px rgba(255, 255, 255, 0.4));
 	span {
 		position: absolute;
 		text-align: center;
@@ -915,7 +939,6 @@ hr {
 .menu-item:hover ul.sub-menu{
 	display: block;
 }
-
 
 #menu-local-menu {
 	clear: both;
@@ -1347,6 +1370,9 @@ footer.entry-meta {
 .ui-tabs-panel .social-media-mashup.icons-grey {
 	margin: 0!important;
 	margin-top: -1em!important;
+	.smm-item:first-child{
+		margin-top:15px;
+	};
 	.smm-item {
 		background-position: 5px 12px!important;
 		border-bottom: 1px solid #CCC;
