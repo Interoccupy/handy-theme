@@ -973,7 +973,6 @@ hr {
 }
 #branding hgroup {
   clear: both;
-  height: 164px;
   padding: 7px;
   background: #333;
 }
@@ -1050,13 +1049,11 @@ hr {
   behavior: url(../js/PIE.htc);
 }
 #site-title span {
-  position: absolute;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   behavior: url(../js/PIE.htc);
   height: 150px;
-  width: 150px;
-  padding: 12px 0 0;
+  padding: 12px 0 0 10px;
 }
 #site-title a {
   color: #ffffff;
