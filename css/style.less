@@ -825,9 +825,12 @@ hr {
 	background: @grayC;
 	hgroup {
 		clear: both;
-		// height: 164px;
 		padding: 7px;
 		background: #333;
+		.hasImages
+		{
+			height: 164px;
+		}
 	}
 }
 
@@ -902,6 +905,11 @@ hr {
 		height: 150px;
 		// width: 150px;
 		padding: 12px 0 0 10px;
+		.hasImages
+		{
+			position: absolute;
+		}
+
 	}
 	a {
 		color: @white;
@@ -909,9 +917,12 @@ hr {
 }
 
 #carousel {
-	height: 150px;
 	width: 120%;
 	overflow: hidden;
+	.hasImages
+	{
+		height: 150px;
+	}
 	a {
 		margin-right: 5px;
 	}
