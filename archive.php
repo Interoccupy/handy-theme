@@ -37,7 +37,7 @@ get_header(); ?>
 						<?php elseif ( is_year() ) : ?>
 							<?php printf( __( 'Yearly Archives: %s', 'foghorn' ), '<span>' . get_the_date( 'Y' ) . '</span>' ); ?>
 						<?php else : ?>
-							<?php _e( 'Blog Archives', 'foghorn' ); ?>
+							<?php _e( 'Minutes', 'foghorn' ); ?>
 						<?php endif; ?>
 					</h1>
 				</header>
