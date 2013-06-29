@@ -79,13 +79,13 @@
 				</ul>
 			</nav>
 
-			<hgroup <?php if ( of_get_option('logo', false)) {?> class='hasImages' <?php } ?>>
-				<h1 id="site-title" <?php if ( of_get_option('logo', false)) {?> class='hasImages' <?php } ?> <?php if ( of_get_option('logo_override', false) ) { ?>class="override"<?php } ?>><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+			<hgroup <?php if ( of_get_option('header-1', false)) {?> class='HGhasImages' <?php } ?>>
+				<h1 id="site-title" <?php if ( of_get_option('header-1', false)) {?> class='titleHasImages' <?php } ?> <?php if ( of_get_option('logo_override', false) ) { ?>class="override"<?php } ?>><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<?php
 					bloginfo( 'name' );
 				?>
 				</a></span></h1>
-				<div id="carousel" <?php if ( of_get_option('logo', false)) {?> class='hasImages' <?php } ?>>
+				<div id="carousel" <?php if ( of_get_option('header-1', false)) {?> class='cHasImages' <?php } ?>>
 					<?php if ( of_get_option('logo', false) ) { ?>
 					<img src="<?php echo of_get_option('logo'); ?>" alt="<?php bloginfo( 'name' ) ?>" class="logo"/>
 				<?php } ?>

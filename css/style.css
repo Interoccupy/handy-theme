@@ -465,8 +465,9 @@ pre {
   padding: 15px;
   background: #eeeeee;
 }
+.entry-content h1,
 .entry-content h2 {
-  margin-top: 1.5em;
+  margin-top: 0;
 }
 /* links */
 a,
@@ -915,7 +916,7 @@ hr {
 #primary {
   width: 75%;
   background: #ffffff;
-  padding: 20px 30px 40px;
+  padding: 0 30px 40px;
   float: right;
 }
 .layout-1c #primary {
@@ -976,7 +977,7 @@ hr {
   padding: 7px;
   background: #333;
 }
-#branding hgroup .hasImages {
+#branding hgroup .HGhasImages {
   height: 164px;
 }
 #menu-global-menu {
@@ -1058,7 +1059,7 @@ hr {
   height: 150px;
   padding: 12px 0 0 10px;
 }
-#site-title span .hasImages {
+#site-title span .titleHasImages {
   position: absolute;
 }
 #site-title a {
@@ -1068,7 +1069,7 @@ hr {
   width: 120%;
   overflow: hidden;
 }
-#carousel .hasImages {
+#carousel .cHasImages {
   height: 150px;
 }
 #carousel a {
